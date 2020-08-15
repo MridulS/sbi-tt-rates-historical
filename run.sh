@@ -1,4 +1,4 @@
-wget https://www.sbi.co.in/documents/16012/1400784/FOREX_CARD_RATES.pdf -O ~/sbi-tt-rates-historical/$(date '+%Y-%m-%d-%H:%M').pdf
+wget https://www.sbi.co.in/documents/16012/1400784/FOREX_CARD_RATES.pdf -O ~/sbi-tt-rates-historical/forex_sbi_tt_rates/$(date '+%Y-%m-%d-%H:%M').pdf
 git add .
 git config user.email "noreply@shivamkhandelwal.in"
 git config user.name "Shivam Khandelwal (auto commit)"
